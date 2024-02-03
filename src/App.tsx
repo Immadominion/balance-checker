@@ -1,5 +1,4 @@
 import { useEffect, useMemo } from "react";
-import { WalletProvider } from "aleo-hooks";
 
 import {
   PuzzleWalletAdapter,
@@ -15,6 +14,7 @@ import Appbar from "./components/Appbar";
 import CTAcard from "./components/cta_card/CTAcard";
 import { IoQrCodeSharp } from "react-icons/io5";
 import Keypad from "./components/keypad/Keypad";
+import { WalletProvider } from "aleo-hooks";
 
 function App() {
   const wallets = useMemo(
