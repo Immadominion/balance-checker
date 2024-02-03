@@ -1,0 +1,32 @@
+.app-root {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .app-body {
+    flex: 1;
+    padding: 5%; /* Adjust as needed */
+  }
+
+  .space {
+    flex-grow: 1;
+  }
+  
+  .bottom-nav {
+    border-top: 1.9px solid rgb(167, 167, 167);
+  }
+
+.cta-sect {
+    border: 2px solid rgb(167, 167, 167); 
+    padding-block: 5%;
+    padding-inline: 2.5%;
+    margin: 5% 0% 5% 0%;
+    border-radius: .5rem;
+    height: 70px;
+    padding: 10px; 
+}
+
+.buttons {
+    display: flex;
+}

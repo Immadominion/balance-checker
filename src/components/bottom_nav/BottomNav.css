@@ -1,0 +1,11 @@
+.bottom-item {
+    display: grid;
+    align-items: center;
+    align-self: center;
+    /* padding-top: 10vh; */
+}
+
+
+.nav-text {
+    font-size: 0.8em;
+}

@@ -1,0 +1,15 @@
+.trust-icon {
+    display: flex; /* Center the icon horizontally and vertically */
+    align-items: center;
+    justify-content: center;
+    width: auto; /* Adjust the width as needed */
+    height: 100%; /* Adjust the height as needed */
+    border-radius: 50%; 
+    padding: 4%;
+    background-color: rgba(0, 0, 255, 0.6);
+}
+
+.text {
+    padding-left: 5%;
+}
+
