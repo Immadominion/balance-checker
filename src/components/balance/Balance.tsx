@@ -9,7 +9,7 @@ const Balance = ({cryptoBalance, equivalentInEuro}: Props) => {
   return (
     <div className='flex-column balance '>
         <h1>
-            {cryptoBalance} sats
+            {cryptoBalance} Aleo
         </h1>
             <h2>
                 {equivalentInEuro} €
